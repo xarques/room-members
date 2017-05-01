@@ -7,7 +7,7 @@ const builder = require('claudia-bot-builder'),
 var options = {
   host: 'slack.com',
   port: 443,
-  path: '/api/users.list?token=xoxp-82614129472-82625675831-175602415734-93899ef773690e8a6daac74408a54389&pretty=1',
+  path: '/api/users.list?token=TOKEN-PLACHOLDER',
   method: 'GET'
 };
 
@@ -35,8 +35,7 @@ module.exports = builder((request, apiReq) => {
 var options = {
   uri: 'https://slack.com/api/users.list',
   qs: {
-      token: 'xoxp-82614129472-82625675831-175602415734-93899ef773690e8a6daac74408a54389',
-      pretty: '1'
+      token: 'TOKEN-PLACHOLDER'
   },
   /*
   headers: {
