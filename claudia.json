@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "room-members-executor",
+    "name": "room-members",
+    "region": "eu-west-1"
+  },
+  "api": {
+    "id": "tnyfb5ky6i",
+    "module": "bot"
+  }
+}

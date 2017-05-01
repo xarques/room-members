@@ -1,0 +1,21 @@
+{
+  "name": "room-members",
+  "version": "1.0.0",
+  "description": "Display the list of the current Slack room members",
+  "main": "index.js",
+  "scripts": {
+    "create": "claudia create --region eu-west-1 --api-module bot",
+    "configure-slack": "claudia update --configure-slack-slash-command",
+    "deploy": "claudia update"
+  },
+  "author": "Xavier Arques",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-bot-builder": "^2.15.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  },
+  "devDependencies": {
+    "claudia": "^2.12.1"
+  }
+}
